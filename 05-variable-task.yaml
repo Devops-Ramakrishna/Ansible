@@ -6,7 +6,7 @@
     duration: "120HR"
   tasks:
   - name: check variables
-      vars:
-        course: "Devops with aws"
-      ansible.builtin.debug:
-        msg: " Hi i am learnig {{course}}, Trainer is {{name}}, duration is {{duration}}"
+    vars:
+      course: "Devops with aws"
+    ansible.builtin.debug:
+      msg: " Hi i am learnig {{course}}, Trainer is {{name}}, duration is {{duration}}"
