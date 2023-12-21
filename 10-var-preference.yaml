@@ -12,8 +12,8 @@
     PERSON: "siva from PLAY"
     WISEHS: "morning from play"
   vars:
-    PERSON="siva from PLAY"
-    WISEHS="morning from play" 
+    PERSON: "siva from PLAY"
+    WISEHS: "morning from play" 
   tasks:
   - name: check variables
     vars:
