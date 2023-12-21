@@ -5,7 +5,7 @@
     name: "sivakumar"
     duration: "120HR"
   tasks:
-   - name: check variables
+  - name: check variables
       vars:
         course: "Devops with aws"
       ansible.builtin.debug:
