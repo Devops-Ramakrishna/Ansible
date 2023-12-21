@@ -9,8 +9,6 @@
   - name: WISHES
     prompt: please enter your wishes
     private: false # you can't see what they are entering
-    PERSON: "siva from PLAY"
-    WISEHS: "morning from play"
   vars:
     PERSON: "siva from PLAY"
     WISEHS: "morning from play" 
@@ -21,3 +19,10 @@
       WISEHS: "morning from play"
     ansible.builtin.debug:
       msg: " Hello {{PERSON}}, Good {{WISHES}} "
+#1. CMD
+#2. task
+#3. File
+#4. prompt
+#5. play
+#6. inventory
+#7. roles
