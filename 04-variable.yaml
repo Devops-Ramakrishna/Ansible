@@ -1,6 +1,5 @@
 - name: variable from the localhost
   hosts: localhost
-  become: yes
     vars:
       course: "Devops"
       name: "sivakumar"
